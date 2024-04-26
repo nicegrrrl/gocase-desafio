@@ -1,0 +1,33 @@
+.title-1 {
+  font-size: var(--title-1);
+  color: var(--grey-scale-0);
+  font-family: var(--font-family-2);
+}
+
+.text-1 {
+  font-size: var(--text-1);
+  color: var(--grey-scale-1);
+  line-height: 22px;
+  font-weight: var(--font-weight-2);
+}
+
+.category {
+  font-size: var(--text-2);
+  color: var(--grey-scale-1);
+  letter-spacing: 6px;
+  text-transform: uppercase;
+}
+
+.price {
+  font-size: var(--title-1);
+  font-family: var(--font-family-2);
+  font-weight: var(--font-weight-1);
+  color: var(--primary-color);
+}
+
+.salePrice {
+  font-size: var(--text-2);
+  text-decoration: line-through;
+  color: var(--grey-scale-1);
+  font-weight: var(--font-weight-2);
+}

@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --bg-color: hsl(30, 38%, 92%);
+  --primary-color: hsl(158, 36%, 37%);
+
+  --grey-scale-0: hsl(212, 21%, 14%);
+  --grey-scale-1: hsl(228, 12%, 48%);
+  --grey-scale-2: hsl(0, 0%, 100%);
+
+  --title-1: 26px;
+  --text-1: 14px;
+  --text-2: 12px;
+
+  --font-weight-1: 700;
+  --font-weight-2: 500;
+
+  --font-family-1: "Montserrat", sans-serif;
+  --font-family-2: "Fraunces", serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: var(--font-family-1);
+}

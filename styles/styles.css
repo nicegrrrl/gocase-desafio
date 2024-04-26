@@ -1,0 +1,61 @@
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.cardBox {
+  width: 80%;
+  height: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--grey-scale-2);
+  border-radius: 8px;
+}
+
+.image {
+  height: 250px;
+}
+
+.image > img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.infoCard {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.cartButton {
+  width: 100%;
+  height: 52px;
+  padding: 12px;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  font-family: var(--font-family-1);
+  color: var(--grey-scale-2);
+  font-weight: var(--font-weight-1);
+  border-radius: 8px;
+}
+
+@media (min-width: 1440px) {
+  .cardBox {
+    flex-direction: row;
+  }
+}
