@@ -9,7 +9,7 @@ img {
 }
 
 button {
-  cursor: ponter;
+  cursor: pointer;
   border: none;
   background-color: transparent;
 }

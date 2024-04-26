@@ -4,14 +4,15 @@
 :root {
   --bg-color: hsl(30, 38%, 92%);
   --primary-color: hsl(158, 36%, 37%);
+  --secondary-color: hsla(158, 36%, 37%, 0.619);
 
   --grey-scale-0: hsl(212, 21%, 14%);
   --grey-scale-1: hsl(228, 12%, 48%);
   --grey-scale-2: hsl(0, 0%, 100%);
 
-  --title-1: 26px;
-  --text-1: 14px;
-  --text-2: 12px;
+  --title-1: 1.625rem;
+  --text-1: 0.875rem;
+  --text-2: 0.75rem;
 
   --font-weight-1: 700;
   --font-weight-2: 500;
